@@ -12,12 +12,12 @@ Simple integrate of API udemy.com with python
 # Quick start
 
 ```bash
-$ pip install pyudemy
+$ pip3 install pyudemy
 ```
 or
 
 ```bash
-$ python setup.py install
+$ python3 setup.py install
 ```
 
 # Authentication
@@ -97,8 +97,8 @@ or
 
 # Dependencies
 
-- Python 3.5
-- [Pipenv](https://github.com/kennethreitz/pipenv)
+- Python 3.7
+- [Pipenv](https://github.com/pypa/pipenv)
 - [requests](http://docs.python-requests.org/en/latest/)
 
 # License

@@ -1,12 +1,24 @@
+os: linux
+dist: bionic
+
+addons:
+  apt:
+    update: true
+
+git:
+  depth: 1
+
 language: python
 python:
-  - "3.5"
+  - "3.7"
+
 # command to install dependencies
 install:
- - pip install pipenv
- - pipenv install
- - pipenv install --dev
- - "pipenv run pip install https://github.com/hudsonbrendon/pyudemy/archive/master.zip"
+  - pip3 install pipenv
+  - pipenv install
+  - pipenv graph
+  - pipenv install --dev
+  - "pipenv run pip3 install https://github.com/ZeoRexDevs/pyudemy/archive/master.zip"
 
 # command to run tests
 script: ./runtests
