@@ -22,3 +22,5 @@ install:
 
 # command to run tests
 script: ./runtests
+
+after_success: pipenv run python3 examples/courses.py
