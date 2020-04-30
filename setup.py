@@ -2,9 +2,9 @@ from setuptools import setup
 
 
 setup(name='pyudemy',
-      version='0.3',
+      version='0.4',
       description='Simple integrate of API udemy.com with python',
-      url='https://github.com/hudsonbrendon/pyudemy',
+      url='https://github.com/ZeoRexDevs/pyudemy',
       author='Hudson Brendon',
       author_email='contato.hudsonbrendon@gmail.com',
       license='MIT',

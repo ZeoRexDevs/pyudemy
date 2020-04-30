@@ -1,7 +1,7 @@
 # Pyudemy
 
 
-[![Build Status](https://travis-ci.org/hudsonbrendon/pyudemy.svg?branch=master)](https://travis-ci.org/hudsonbrendon/pyudemy)
+[![Build Status](https://travis-ci.org/ZeoRexDevs/pyudemy.svg?branch=master)](https://travis-ci.org/ZeoRexDevs/pyudemy)
 [![Github Issues](http://img.shields.io/github/issues/hudsonbrendon/pyudemy.svg?style=flat)](https://github.com/hudsonbrendon/pyudemy/issues?sort=updated&state=open)
 ![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
 
